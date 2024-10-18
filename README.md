@@ -491,3 +491,4 @@ This project implements a comprehensive train and ticket management system with 
 ## **Conclusion**  
 The project meets all the provided criteria by implementing secure user management, accurate station and train scheduling, wallet integration, and a ticketing system with fare calculation. Each route is mapped to fulfill specific requirements, with proper validation, data integrity, and secure operations using JWT. This ensures the project is robust, secure, and functional.
 
+- Sheikh Saif Simran
