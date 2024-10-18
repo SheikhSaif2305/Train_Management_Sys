@@ -89,7 +89,7 @@ This project offers a set of RESTful APIs for managing trains, stations, tickets
 
 --
 
-##$ **Authentication**
+### **Authentication**
 **Authorization Header:** Required for protected routes  
 ```
 Authorization: Bearer <your_token>
