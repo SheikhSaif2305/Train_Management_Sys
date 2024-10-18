@@ -1,0 +1,6 @@
+Flask
+flask-mysqldb
+flask-jwt-extended
+python-dotenv
+APScheduler
+mysql-connector-python
