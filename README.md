@@ -1,5 +1,70 @@
 
 
+## **Train Management System – Setup and Run Guide**
+
+### **Prerequisites**
+Make sure you have the following installed:
+- **Python 3.x**  
+- **pip** (Python package installer)
+- **Git** (for cloning the repository)
+- **Postman** (optional, for API testing)
+
+### **Steps to Run the Project Locally**
+
+#### 1. **Clone the Repository**
+Open a terminal/command prompt and run:
+```bash
+git clone https://github.com/SheikhSaif2305/Train_Management_Sys.git
+cd Train_Management_Sys
+```
+
+#### 2. **Create and Activate Virtual Environment**
+This ensures your dependencies don’t conflict with other projects.
+```bash
+# Create a virtual environment (Windows)
+python -m venv venv
+
+# Activate the virtual environment
+venv\Scripts\activate
+
+```
+
+#### 3. **Install Dependencies**
+All required dependencies are listed in `requirements.txt`. Install them using:
+```bash
+pip install -r requirements.txt
+```
+
+#### 4. **Set Up Environment Variables**
+Create a `.env` file in the project directory. Add any necessary environment variables mentioned in the project (if applicable). For example:
+```
+MYSQL_HOST=localhost
+MYSQL_USER=root
+MYSQL_PASSWORD=my_password
+MYSQL_DB=your_tsm_systemdb
+JWT_SECRET_KEY=edf766ea63a4cc7f22b5310ade5e88339ab316ab6a146b5a0086c46029cdd4c0
+```
+
+#### 5. **Run the Application**
+In the terminal, run:
+```bash
+python app.py
+```
+
+#### 6. **Access the Application**
+- By default, the app runs on `http://127.0.0.1:5000`.  
+- Open your browser or Postman to access API routes.
+
+#### 7. **Project Structure Overview**
+- **models/**: Contains database models.
+- **routes/**: API endpoints for authentication, tickets, train management, etc.
+- **services/**: Handles specific functionalities, such as authentication.
+- **config.py**: Contains configuration settings for the application.
+- **.env**: Environment variables (not included in the repo for security).
+
+
+---
+
 
 # **API Documentation**
 
