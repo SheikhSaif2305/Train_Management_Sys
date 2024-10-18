@@ -1,6 +1,6 @@
 
 
-## **Train Management System – Setup and Run Guide**
+# **Train Management System – Setup and Run Guide**
 
 ### **Prerequisites**
 Make sure you have the following installed:
@@ -66,7 +66,7 @@ python app.py
 ---
 
 
-# **API Documentation**
+## **API Documentation**
 
 ## **Overview**  
 This project offers a set of RESTful APIs for managing trains, stations, tickets, and wallets. The system utilizes **JWT authentication** for security and interacts with a MySQL database. 
